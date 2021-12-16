@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.router-link-active {
+  @apply flex text-blue-800 dark:text-white !important;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease-out;
+}
